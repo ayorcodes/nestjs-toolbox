@@ -1,11 +1,11 @@
 {
   "name": "nestjs-toolbox",
   "description": "nestjs toolbox",
-  "author": "bogdanlupu <lupu60@gmail.com>",
+  "author": "ayorcodes <ayorcodes@gmail.com>",
   "maintainers": [
     {
-      "name": "bogdan lupu",
-      "email": "lupu60@gmail.com"
+      "name": "Ayomide Adejola",
+      "email": "ayorcodes@gmail.com"
     }
   ],
   "publicConfig": {
@@ -15,13 +15,13 @@
     "registry": "https://registry.npmjs.org/"
   },
   "private": "false",
-  "homepage": "https://github.com/lupu60/nestjs-toolbox#readme",
+  "homepage": "https://github.com/ayorcodes/nestjs-toolbox#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lupu60/nestjs-toolbox.git"
+    "url": "git+https://github.com/ayorcodes/nestjs-toolbox.git"
   },
   "bugs": {
-    "url": "https://github.com/lupu60/nestjs-toolbox/issues"
+    "url": "https://github.com/ayorcodes/nestjs-toolbox/issues"
   },
   "license": "MIT",
   "keywords": [
