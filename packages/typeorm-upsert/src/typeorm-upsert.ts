@@ -16,6 +16,7 @@ export async function TypeOrmUpsert<T>(
     keyNamingTransform?: (k: string) => string;
     doNotUpsert?: string[];
     chunk?: number;
+    constraintKey?: string; 
   },
 ): Promise<T[] | T | any> {
   options = options ? options : {};
@@ -25,7 +26,7 @@ export async function TypeOrmUpsert<T>(
   const sampleObject = Array.isArray(object) ? object[0] : object;
   const keys: string[] = _keys({ sampleObject, doNotUpsert });
   const setterString = _generateSetterString({ keys, keyNamingTransform });
-  const onConflict = `("${conflictKey}") DO UPDATE SET ${setterString}`;
+  const onConflict = options.constraintKey? `ON CONSTRAINT "${conflictKey}" DO UPDATE SET ${setterString}`: `("${conflictKey}") DO UPDATE SET ${setterString}`;
   const chunkedValues = _chunkValues({ values: object, chunk });
   return (await _chunkPromises({ repository, chunkedValues, onConflict })).reduce((acc, current) => {
     return acc.concat(current?.raw);
