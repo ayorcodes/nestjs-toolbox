@@ -3,7 +3,7 @@
     "description": "upsert function for typeorm",
     "version": "1.0.0",
     "author": "bogdanlupu <lupu60@gmail.com>",
-    "homepage": "https://github.com/lupu60/nestjs-toolbox/tree/master/packages/typeorm-upsert#readme",
+    "homepage": "https://github.com/ayorcodes/nestjs-toolbox/blob/master/README.md",
     "license": "MIT",
     "keywords": [
         "typeorm",
@@ -11,16 +11,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/lupu60/nestjs-toolbox.git"
+        "url": "git+https://github.com/ayorcodes/nestjs-toolbox.git"
     },
     "bugs": {
-        "url": "https://github.com/lupu60/nestjs-toolbox/issues"
-    },
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
-    },
-    "publicConfig": {
-        "access": "public"
+        "url": "https://github.com/ayorcodes/nestjs-toolbox/issues"
     },
     "main": "dist/index",
     "types": "dist/index",
@@ -36,7 +30,6 @@
         "test": "jest --ci --config ../../jest.config.json ",
         "prepublishOnly": "npm run build"
     },
-    "gitHead": "cc164bd38bb811f559a559c2004899288987e3be",
     "dependencies": {
         "rimraf": "3.0.2",
         "typeorm": "0.2.37"
