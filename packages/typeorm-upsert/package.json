@@ -1,8 +1,8 @@
 {
-    "name": "@nest-toolbox/typeorm-upsert",
+    "name": "@ayorcodes/typeorm-upsert",
     "description": "upsert function for typeorm",
     "version": "1.0.0",
-    "author": "bogdanlupu <lupu60@gmail.com>",
+    "author": "ayorcodes <adeayo35@gmail.com>",
     "homepage": "https://github.com/ayorcodes/nestjs-toolbox/blob/master/README.md",
     "license": "MIT",
     "keywords": [
