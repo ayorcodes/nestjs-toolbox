@@ -1,5 +1,5 @@
 {
-    "name": "@ayorcodes/typeorm-upsert",
+    "name": "@nest-toolbox/typeorm-upsert",
     "description": "upsert function for typeorm",
     "version": "1.0.0",
     "author": "ayorcodes <adeayo35@gmail.com>",
@@ -30,6 +30,7 @@
         "test": "jest --ci --config ../../jest.config.json ",
         "prepublishOnly": "npm run build"
     },
+    "gitHead": "cc164bd38bb811f559a559c2004899288987e3be",
     "dependencies": {
         "rimraf": "3.0.2",
         "typeorm": "0.2.37"
